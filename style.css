@@ -78,6 +78,10 @@ a, a:link, a:visited {
     font-weight:bolder;
 }
 
+.button:active {
+    background:#609dff
+}
+
 .content-top {
     background:white;
     padding-bottom: 8%;
@@ -164,6 +168,10 @@ a, a:link, a:visited {
     font-weight:bolder;
 }
 
+.button2:active {
+    background:#609dff
+}
+
 #action-header{
     font-size:20px;
     font-weight:bold;
@@ -173,4 +181,13 @@ a, a:link, a:visited {
 
 #action-content{
     margin:0;
+}
+
+.footer{
+    background:#1F2937;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+    padding: 1%;
 }
