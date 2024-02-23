@@ -75,7 +75,7 @@ a, a:link, a:visited {
     text-decoration:none;
     padding: 8px 30px;
     border:none;
-    font-weight:bold;
+    font-weight:bolder;
 }
 
 .content-top {
@@ -131,8 +131,46 @@ a, a:link, a:visited {
 }
 
 #quote-end{
-    font-size:16px;
+    font-size:20px;
     font-weight:bold;
     align-self: flex-end;
     width:40%;
+}
+
+.call-to-action-background{
+    background:white;
+    padding:8% 10%;
+}
+
+.call-to-action-box{
+    background:#3882F6;
+    margin:0;
+    padding: 2% 2%;
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+    color:white;
+    border-radius:6px;
+}
+
+
+.button2 {
+    background: #3882F6;
+    color: white;
+    border-radius:8px;
+    text-decoration:none;
+    padding: 12px 38px;
+    border:2px solid white;
+    font-weight:bolder;
+}
+
+#action-header{
+    font-size:20px;
+    font-weight:bold;
+    margin:0;
+    margin-bottom: 1%;
+}
+
+#action-content{
+    margin:0;
 }
